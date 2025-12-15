@@ -8,7 +8,6 @@ import random  # Import the random module to allow the computer to make a random
 # The computer's choice is a random selection from the list {-1, 0, 1}
 computer = random.choice([-1, 0, 1])
 
-
 youStr = input("Enter your choice: ")
 
 # Created a dictionary to map the user's string input
@@ -62,3 +61,4 @@ else:
   else:
 
     print("Something went wrong!")
+
