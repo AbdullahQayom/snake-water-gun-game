@@ -5,7 +5,7 @@ import random  # Import the random module to allow the computer to make a random
 # Water is represented by -1
 # Gun is represented by 0
 
-# The computer's choice is a random selection from the list [-1, 0, 1]
+# The computer's choice is a random selection from the list {-1, 0, 1}
 computer = random.choice([-1, 0, 1])
 
 
@@ -60,4 +60,5 @@ else:
     print("You Lose!")
 
   else:
+
     print("Something went wrong!")
