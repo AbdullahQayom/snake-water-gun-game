@@ -1,4 +1,4 @@
-import random  # Import the random module to allow the computer to make a random choice
+import random
 
 # Define the numerical representation for each game item
 # Snake is represented by 1
@@ -16,7 +16,7 @@ youDict = {"s": 1, "w": -1, "g": 0}
 # Created a dictionary to map the numerical value back to the item name for display purposes
 reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
 
-# Get the user's numerical choice from the youDict
+# user's will get  numerical choice from the youDict
 you = youDict[youStr]
 
 # Print what the user chose and what the computer chose, using the reverseDict for readability
@@ -61,4 +61,5 @@ else:
   else:
 
     print("Something went wrong!")
+
 
